@@ -8,7 +8,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/images/hero-background.jpg)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=1920&h=1080&fit=crop)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -18,13 +18,9 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
         <div className="mb-8 flex justify-center">
-          <Image 
-            src="/images/logo.png"
-            alt="Their Backyard Logo"
-            width={120}
-            height={120}
-            className="rounded-3xl shadow-lg"
-          />
+          <div className="w-[120px] h-[120px] bg-gradient-to-br from-orange-400 to-orange-600 rounded-3xl shadow-lg flex items-center justify-center text-white font-bold text-2xl">
+            TB
+          </div>
         </div>
 
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">

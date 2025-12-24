@@ -8,19 +8,19 @@ export default function Feature() {
       icon: 'ri-map-2-line',
       title: '地図を「育てる」インターフェース',
       description: 'アプリ開始時、地図は暗闇に包まれています。実際にその場所を訪れ時間を過ごすことで、暗闇が照らされ本来の姿を取り戻します。',
-      image: '/images/feature-map.jpg'
+      image: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&h=400&fit=crop'
     },
     {
       icon: 'ri-time-line',
       title: '「通過」ではなく「滞在」を評価',
       description: '単に通過しただけでは明るくなりません。一定時間を過ごすことで光が灯ります。これは場所を「よく知る」プロセスを表現しています。',
-      image: '/images/feature-stay.jpg'
+      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop'
     },
     {
       icon: 'ri-eye-line',
       title: '生活空間の客観的な把握',
       description: '数週間利用すると自身の生活空間が可視化され、行動範囲の狭さへの気づきや、意外なアクティブさの発見に繋がります。',
-      image: '/images/feature-visualization.jpg'
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop'
     }
   ];
 
