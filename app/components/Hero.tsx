@@ -8,7 +8,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=1920&h=1080&fit=crop)',
+          backgroundImage: 'url(https://readdy.ai/api/search-image?query=A%20serene%20minimalist%20map%20interface%20showing%20hexagonal%20grid%20patterns%20with%20soft%20glowing%20lights%20illuminating%20dark%20areas%20representing%20exploration%20and%20discovery%20in%20urban%20spaces%20with%20clean%20white%20background%20and%20subtle%20orange%20accent%20tones%20modern%20digital%20aesthetic%20peaceful%20atmosphere%20conveying%20sense%20of%20personal%20growth%20and%20spatial%20awareness&width=1920&height=1080&seq=hero001&orientation=landscape)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -18,9 +18,13 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
         <div className="mb-8 flex justify-center">
-          <div className="w-[120px] h-[120px] bg-gradient-to-br from-orange-400 to-orange-600 rounded-3xl shadow-lg flex items-center justify-center text-white font-bold text-2xl">
-            TB
-          </div>
+          <Image 
+            src="https://public.readdy.ai/ai/img_res/0f660b57-b5c4-4353-b397-3cebbd4654fa.png"
+            alt="Their Backyard Logo"
+            width={120}
+            height={120}
+            className="rounded-3xl shadow-lg"
+          />
         </div>
 
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
